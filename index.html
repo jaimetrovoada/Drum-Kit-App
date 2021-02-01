@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kits App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>Drum Kits App</header>
+    <div class="container">
+        <div>
+            <p>💡TIP: You can press the keys on your keyboard to play</p>
+        </div>
+        <div id="keyContainer">
+            <div data-key="87" class="key">
+                <kbd>W</kbd>
+                <span>Kick</span>
+            </div>
+            <div data-key="69" class="key">
+                <kbd>E</kbd>
+                <span>Kick</span>
+            </div>
+            <div data-key="82" class="key">
+                <kbd>R</kbd>
+                <span>Kick</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span>HiHat</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span>HiHat</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span>Snare</span>
+            </div>
+            <div data-key="88" class="key">
+                <kbd>X</kbd>
+                <span>Rim</span>
+            </div>
+            <div data-key="67" class="key">
+                <kbd>C</kbd>
+                <span>Rim</span>
+            </div>
+        </div> <!-- end of keyContainer -->
+
+    </div> <!-- end of container -->
+
+    <audio data-key="87" src="./drumKits/Kick01.wav"></audio>
+    <audio data-key="69" src="./drumKits/Kick02.wav"></audio>
+    <audio data-key="82" src="./drumKits/Kick03.wav"></audio>
+    <audio data-key="83" src="./drumKits/Hat01.wav"></audio>
+    <audio data-key="68" src="./drumKits/Hat02.wav"></audio>
+    <audio data-key="70" src="./drumKits/Snr01.wav"></audio>
+    <audio data-key="88" src="./drumKits/Rim01.wav"></audio>
+    <audio data-key="67" src="./drumKits/Rim02.wav"></audio>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
